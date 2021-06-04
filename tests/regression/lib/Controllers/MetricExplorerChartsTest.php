@@ -4,6 +4,8 @@ namespace RegressionTests\Controllers;
 
 use TestHarness\Utilities;
 
+echo "Running MetricExplorerChartsTest.php";
+
 class MetricExplorerChartsTest extends \PHPUnit_Framework_TestCase
 {
     private static $chartFilterTestData = array();
