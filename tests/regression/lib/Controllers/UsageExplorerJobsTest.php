@@ -6,7 +6,9 @@
 
 namespace Controllers;
 
-use TestHarness\RegressionTestHelper;
+use TestHarness\RegressionTestHelper; //Unsure where to place
+
+echo "Running UsageExporerTest.php";
 
 /**
  * Test the usage explorer for jobs realm regressions.
@@ -46,7 +48,6 @@ class UsageExplorerJobsTest extends \PHPUnit_Framework_TestCase
     public function testCsvExport($testName, $input, $expectedFile, $userRole)
     {
         $this->assertTrue(self::$helper->checkCsvExport($testName, $input, $expectedFile, $userRole));
-        echo "Running UsageExporerTest.php";
     }
 
     public function csvExportProvider()
