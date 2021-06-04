@@ -46,6 +46,7 @@ class UsageExplorerJobsTest extends \PHPUnit_Framework_TestCase
     public function testCsvExport($testName, $input, $expectedFile, $userRole)
     {
         $this->assertTrue(self::$helper->checkCsvExport($testName, $input, $expectedFile, $userRole));
+        echo "Running UsageExporerTest.php";
     }
 
     public function csvExportProvider()
