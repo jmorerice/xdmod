@@ -8,6 +8,8 @@ namespace Controllers;
 
 use TestHarness\RegressionTestHelper;
 
+echo "Running UsageExplorerCloudTest.php";
+
 /**
  * Test the usage explorer for cloud realm regressions.
  */
