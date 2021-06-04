@@ -8,6 +8,8 @@ namespace Controllers;
 
 use TestHarness\RegressionTestHelper;
 
+echo "UsageExplorerStorageTest.php";
+
 /**
  * Test the usage explorer for storage realm regressions.
  */
