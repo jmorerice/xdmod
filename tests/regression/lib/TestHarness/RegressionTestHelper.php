@@ -6,6 +6,8 @@
 
 namespace TestHarness;
 
+echo "Running RegressionTestHelper.php";
+
 /**
  * Everything you need to test for regressions.
  */
