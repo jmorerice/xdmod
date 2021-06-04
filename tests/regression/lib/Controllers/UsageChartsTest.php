@@ -2,6 +2,8 @@
 
 namespace RegressionTests\Controllers;
 
+echo "Running UsageChartsTest.php";
+
 class UsageChartsTest extends \PHPUnit_Framework_TestCase
 {
     protected static $helper;
